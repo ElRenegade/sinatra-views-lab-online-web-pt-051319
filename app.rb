@@ -1,7 +1,7 @@
 class App < Sinatra::Base
 
 	get '/' do
-		erb :today
+		erb :date
 	end
 
 
